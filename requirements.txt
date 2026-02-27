@@ -1,0 +1,26 @@
+# ==============================================================================
+# RAG System Dependencies
+# ==============================================================================
+# Install with:  pip install -r requirements.txt
+# ==============================================================================
+
+# --- Orchestration ---
+langchain==0.3.20
+langchain-community==0.3.19
+langchain-chroma==0.1.4
+langchain-huggingface==0.1.2
+langchain-ollama==0.3.2
+
+# --- Vector Database ---
+chromadb==0.5.23
+
+# --- PDF Loading (native text extraction, no OCR) ---
+PyMuPDF==1.25.3
+
+# --- Embeddings (HuggingFace open-source) ---
+sentence-transformers==3.4.1
+
+# --- Utilities ---
+rich==13.9.4            # Beautiful terminal output / progress bars
+python-dotenv==1.0.1    # Optional: for .env-based config overrides
+posthog==3.7.0          # Pinned — newer versions break ChromaDB telemetry

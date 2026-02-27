@@ -16,7 +16,8 @@ env/
 chroma_db/
 
 # PDF documents (too large / potentially private)
-documents/
+documents/*
+!documents/.gitkeep
 
 # Environment variables (may contain secrets)
 .env

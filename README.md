@@ -130,7 +130,9 @@ Connecting to LLM ... OK
 
 Ready! Ask your question.
 
-You: Can I smoke at AUA?
+You: can i drink in AUA?
   [1/3] Embedding query ... OK
   [2/3] Searching documents ... OK (5 chunks)
   [3/3] Generating answer ... OK
+
+Assistant: According to the provided documents, it appears that drinking is not strictly prohibited within AUA facilities. However, all use of food or drink must be pre-approved by the University, as stated in [Source 1: Regulations_on_Provision_of_Facilities_and_Food_Services.pdf | chunk 1]. This suggests that permission would need to be obtained before consuming any drinks on campus.
